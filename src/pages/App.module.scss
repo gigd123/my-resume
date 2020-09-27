@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .header {
+    height: 60px;
+    .siteName {
+
+    }
+    .menu {
+      .active {
+        color: blue;
+      }
+    }
+  }
+  .content {
+    flex: 1;
+  }
+  .footer {
+    padding: 40px;
+    .copyright {
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+}
+
