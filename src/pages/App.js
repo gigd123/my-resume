@@ -11,14 +11,12 @@ const App = (props) => {
   return (
     <div className={styles.App}>
       <header className={styles.header}>
-        <Link to="/">
-          <div className={styles.siteName}>
-            Leo's Website
-          </div>
-        </Link>
-        <div className={styles.menu}>
-          <Link to="/"><span className={location.pathname === '/' ? styles.active : ''}>Home</span></Link>
-          <Link to="/works"><span className={location.pathname === '/works' ? styles.active : ''}>Works</span></Link>
+        <div className={styles.box}>
+            <Link to="/"><div className={styles.boxleft}>Leo's website</div></Link>
+            <div className={styles.boxright}>
+              <Link to="/"><p className={ location.pathname==="/" ? styles.selected : null }>HOME</p></Link>
+              <Link to="/works"><p className={ location.pathname==="/works" ? styles.selected : null } >WORKS</p></Link>
+            </div>
         </div>
       </header>
       <section className={styles.content}>
