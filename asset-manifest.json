@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/my-resume/static/css/main.f6de89f2.chunk.css",
+    "main.js": "/my-resume/static/js/main.8552505d.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.8552505d.chunk.js.map",
+    "runtime-main.js": "/my-resume/static/js/runtime-main.fb0541e1.js",
+    "runtime-main.js.map": "/my-resume/static/js/runtime-main.fb0541e1.js.map",
+    "static/js/2.5380133b.chunk.js": "/my-resume/static/js/2.5380133b.chunk.js",
+    "static/js/2.5380133b.chunk.js.map": "/my-resume/static/js/2.5380133b.chunk.js.map",
+    "index.html": "/my-resume/index.html",
+    "precache-manifest.960fcaba8e06abd6eaa167eb956b2eae.js": "/my-resume/precache-manifest.960fcaba8e06abd6eaa167eb956b2eae.js",
+    "service-worker.js": "/my-resume/service-worker.js",
+    "static/css/main.f6de89f2.chunk.css.map": "/my-resume/static/css/main.f6de89f2.chunk.css.map",
+    "static/js/2.5380133b.chunk.js.LICENSE.txt": "/my-resume/static/js/2.5380133b.chunk.js.LICENSE.txt",
+    "static/media/kururu.jpg": "/my-resume/static/media/kururu.bc52a216.jpg",
+    "static/media/logo.svg": "/my-resume/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb0541e1.js",
+    "static/js/2.5380133b.chunk.js",
+    "static/css/main.f6de89f2.chunk.css",
+    "static/js/main.8552505d.chunk.js"
+  ]
+}
