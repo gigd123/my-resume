@@ -8,7 +8,7 @@ const WorkLists = ({workListData}) => {
         {
           workListData && workListData.map(item=>
             <li key={item.id}>
-              <Link to={ `/works/${item.id}` }>
+              <Link to={ `/my-resume/works/${item.id}` }>
                 <div className={ styles.cover }>
                   <img src={ item.cover } />
                 </div>

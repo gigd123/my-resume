@@ -9,7 +9,7 @@ const WorkPage = () => {
             <h3>My Work</h3>
             <p>A collection of different things I have worked on.</p>
         </div>
-        <WorkLists dataSource={ datas.data } />
+        <WorkLists workListData={ datas.data } />
     </div>
 }
 
