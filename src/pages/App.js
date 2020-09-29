@@ -12,11 +12,11 @@ const App = (props) => {
     <div className={styles.App}>
       <header className={styles.header}>
         <div className={styles.box}>
-            <Link to="/"><div className={styles.boxleft}>Leo's website</div></Link>
-            <div className={styles.boxright}>
-              <Link to="/"><p className={ location.pathname==="/" ? styles.selected : null }>HOME</p></Link>
-              <Link to="/works"><p className={ location.pathname==="/works" ? styles.selected : null } >WORKS</p></Link>
-            </div>
+          <Link to="/"><div className={styles.boxleft}>Leo's practice web</div></Link>
+          <div className={styles.boxright}>
+            <Link to="/"><p className={ location.pathname==="/" ? styles.selected : null }>HOME</p></Link>
+            <Link to="/works"><p className={ location.pathname==="/works" ? styles.selected : null } >WORKS</p></Link>
+          </div>
         </div>
       </header>
       <section className={styles.content}>
@@ -25,7 +25,7 @@ const App = (props) => {
         <Route path="/works/:id" exact component={WorkDetailPage} />
       </section>
       <footer className={styles.footer}>
-        <div className={styles.copyright}>Copyright © 2020 LeoLiu All rights reserved.</div>
+        <div className={styles.copyright}>個人練習用網頁</div>
       </footer>
     </div>
   );

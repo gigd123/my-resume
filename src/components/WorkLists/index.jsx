@@ -3,7 +3,6 @@ import styles from './workLists.module.scss';
 import { Link } from 'react-router-dom';
 
 const WorkLists = ({workListData}) => {
-  console.log(workListData)
   return <div className={styles.workLists}>
     <ul>
         {
